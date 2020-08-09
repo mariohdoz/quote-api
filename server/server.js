@@ -3,7 +3,7 @@ require("./config/index");
 const express = require("express");
 // const bodyParser = require("body-parser");
 // const mongoose = require("mongoose");
-const rutas = require("./routes/home.routes");
+const rutas = require("./routes/index");
 const { NotFoundMiddleware } = require("./middlewares/index");
 
 const app = express();

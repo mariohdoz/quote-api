@@ -10,6 +10,10 @@ class HomeController {
         return render('home', res);
     };
 
+    async about (req, res){ 
+        return render('about', res);
+    };
+
 }
 
 module.exports = new HomeController();
