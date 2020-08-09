@@ -4,6 +4,8 @@
   "description": "quote api",
   "main": "index.js",
   "scripts": {
+    "start": "npm index.js",
+    "dev": "nodemon index.js",
     "test": "test"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mariohdoz/quote-api/issues"
   },
-  "homepage": "https://github.com/mariohdoz/quote-api#readme"
+  "homepage": "https://github.com/mariohdoz/quote-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
