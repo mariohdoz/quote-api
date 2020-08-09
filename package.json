@@ -2,12 +2,15 @@
   "name": "quote-api",
   "version": "1.0.0",
   "description": "quote api",
-  "main": "index.js",
+  "main": "server/start.js",
   "scripts": {
-    "start": "npm index.js",
-    "dev": "nodemon index.js",
+    "start": "npm server/start.js",
+    "dev": "nodemon server/start.js",
     "test": "test"
   },
+  "keywords": [
+    "nodejs"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mariohdoz/quote-api.git"
@@ -19,6 +22,11 @@
   },
   "homepage": "https://github.com/mariohdoz/quote-api#readme",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
